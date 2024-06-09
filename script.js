@@ -124,18 +124,74 @@
 //     console.log("Hello junaid")
     
 // }, 6000);
-setInterval(() => {
-    let time = new Date();
-    let hours = time.getHours();
-    let minutes = time.getMinutes();
-    let seconds = time.getSeconds();
-    let pmam = "AM";
-    if(hours>12){
-        hours-= 12;
-    }
-    if(hours>=12){
-        pmam = "PM";
-    }
-    document.getElementById("clock").innerHTML = hours + ":" + minutes + ":" + seconds + " " +pmam
-    // console.log(hours + ":" + minutes + ":" + seconds + " " +pmam)
-}, 1000);
+// setInterval(() => {
+//     let time = new Date();
+//     let hours = time.getHours();
+//     let minutes = time.getMinutes();
+//     let seconds = time.getSeconds();
+//     let pmam = "AM";
+//     if(hours>12){
+//         hours-= 12;
+//     }
+//     if(hours>=12){
+//         pmam = "PM";
+//     }
+//     document.getElementById("clock").innerHTML = hours + ":" + minutes + ":" + seconds + " " +pmam
+//     // console.log(hours + ":" + minutes + ":" + seconds + " " +pmam)
+// }, 1000)
+
+// map 
+// fruits.map(function add(item){
+    //     console.log(item + " shake");
+    // })
+    // fruits.map(addShake);
+    // function addShake(i){
+        //     console.log(i + "shake")
+        // }
+        // callback function
+        // function printValue(i){
+            //     console.log(i)
+            // }
+            // function add(x , y , printValue){
+                //     sum = x+ y ;
+                //     printValue(sum);
+                // }
+                // add(2 , 3 , printValue)
+                // fruits.map()
+                // const result = numbers.filter(greaterThan6)
+                // function greaterThan6(i){
+                    //     return i > 6
+                    // }
+                    // console.log(result)
+                    // const numbers = [175,50 , 25 , 10];
+                    
+                    // const result = numbers.reduce(myFunc);
+                    
+                    // function myFunc(total, num) {
+                        //   return total + num;
+                        // }
+                        // console.log(result)
+
+// const numbers2 = [11 , 98 , 56 , ...numbers]
+// console.log(numbers2)
+
+// destructring in js 
+// const fruits = ["mango" , "orange" , "apple" , "grapes"];
+// console.log(fruits[0])
+// const [ amb , sungtar , chont] = fruits;
+// console.log(amb)
+// const result =numbers.map(function square(i){
+    // return i*i
+    // })
+    // console.log(result)
+//     const numbers = [1 , 5 , 7, 23, 10 ]
+//     const result=numbers.filter(function odd(i)
+//         {
+// return i%2 !=0;
+//         }
+//     )
+//     console.log(result)
+
+
+
+
